@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.heading {
+    background-color: #27ae60;
+    height: 50px;
+    font-size: 40px;
+    color: rgb(234, 226, 13);
+    padding: 10px;
+}
+
+.bars-container {
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    margin-top: 150px;
+}
+
+
+.bar {
+    width: 20px;
+    margin: 0 2px;
+    background-color: #3498db;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #cc701f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3498db;
+}
